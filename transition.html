@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .transi{
+        background-color: aqua;
+        height: 100px;
+        width: 200px;
+         /* transition: ease-in-out */
+        /* transition: transform 2s;  */
+        -webkit-animation-duration: 2s;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        -webkit-animation-name: abhay;
+        animation-name: abhay;
+
+    }
+    @keyframes abhay{
+        from{background-color: chartreuse;}
+        to{background-color: darkblue;}
+        
+
+    }
+    @keyframes abhii{
+        from {width: 0px;}
+        to{width: 300px;}
+    }
+    /* .transi:hover{
+        color:red;
+        height: 200px;
+        width: 500px;
+        background-color: chartreuse;
+        /* transform: skewY(60deg); */
+        /* transform: rotate(360deg);
+    } */ */
+</style>
+<body>
+    <div class="transi">
+        <h1>Abhay</h1>
+    </div>
+</body>
+</html>

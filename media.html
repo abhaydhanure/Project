@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body h1 {
+        background-color: coral;
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+
+    }
+
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li {
+        padding: 10px;
+        margin-bottom: 15px;
+        background-color: cyan;
+        color: black;
+        box-shadow: 0 1px 3px red;
+        width: 200px;
+
+    }
+
+    .menu li:hover {
+        color: brown;
+    }
+
+    .menu ul ul {
+        display: none;
+    }
+
+    .menu ul li:hover>ul {
+        display: block;
+    }
+
+    .menu ul ul {
+        margin-left: 170px;
+        top: 0;
+        position: absolute;
+    }
+    .aside{
+        background-color: cornflowerblue;
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        box-shadow: 0 1px 3px red;
+    }
+    .footer{
+        background-color: sandybrown;
+        text-align: center;
+        padding: 15px;
+        font-size: 15px;
+        box-shadow: 0 1px 3px red;
+    }
+    .abhay{
+        display: none;
+        color: deeppink;
+        background-color: blue;
+        height: 400px;
+        width: 500px;
+    }
+    @media (min-width:0px) and(max-width: 500px) {
+        .abhay{background: red;display: block;}
+        
+        
+    }
+    
+
+</style>
+
+<body>
+    <h1>Pune</h1>
+    <div class="menu">
+        <ul>
+            <li>Fort
+                <ul>
+                    <li>Rajgad</li>
+                    <li>Torna</li>
+                    <li>Purandar</li>
+                </ul>
+            </li>
+            <li>Nature</li>
+            <li>God</li>
+            <li>Clg</li>
+        </ul>
+    </div>
+    <div class="abhay">
+        <h2>Pune city</h2>
+        <p>Pune is the best city in maharashtra. in which pune lots of fort like torna, purandar, Rajgad. Koregao parak is
+            too much rich in pune</p>
+    </div>
+    <div class="abhii">
+    <div class="aside">
+        <h2>Why Pune?</h2>
+        <p>Pune is god of city or Nature of City </p>
+        <h2>Where Pune?</h2>
+        <p>In Maharashtra Pune is a very prestigious city</p>
+        <h2>How pune?</h2>
+        <p>Pune is very cool city and picnic Spot</p>
+    </div>
+    </div>
+    <div class="footer">
+    <footer>@nowadays Html and css is very demanding!! </footer>
+    </div>
+</body>
+
+</html>

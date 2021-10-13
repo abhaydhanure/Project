@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    This is Scope Chain in javascript
+
+    <script>
+
+        var x=0;
+        var y= 'this is abhay <br>';
+        document.write(x);
+        document.write(y);
+
+        f1();
+        function f1(){
+
+            var a='abhay';
+            var b='rushi';
+            document.write(x);
+            document.write(a);
+            f2();
+            function f2(){
+                var c='abhii';
+                var d='Mahesh';
+                console.log(a);
+                console.log(d);
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

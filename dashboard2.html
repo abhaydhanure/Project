@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: tomato;
+        
+    }
+    .abhay{
+        width: 800px;
+        margin: auto;
+    }
+    .abhay ul li{
+        background: whitesmoke;
+        border: 1px solid rgb(24, 4, 4);
+        float: left;
+        width: 160px;
+        text-align: center;
+        line-height: 40px;
+        position: relative;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .abhay ul{
+        list-style: none;
+        margin-top: 2%;
+    }
+    .abhay ul li:hover{
+        color: rgb(247, 9, 9);
+    }
+    .abhay ul ul{
+        display: none;
+    }
+     .abhay ul li:hover > ul{
+        display: block; 
+    }
+     .abhay ul ul ul{
+        margin-left: 160px;
+        top: 0;
+        position:absolute;
+    } 
+</style>
+<body>
+    <div class="abhay">
+        <ul>
+            <li>Home
+              <ul>
+                  <li>Pune</li>
+                  <li>Mumbai</li>
+                  <li>Delhi
+                      <ul>
+                          <li>goa</li>
+                          <li>panji</li>
+                      </ul>
+                      </li>
+              </ul>  
+              </li>
+              <li>About</li>
+              <li>contact</li>
+              <li>Help</li>
+        </ul>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

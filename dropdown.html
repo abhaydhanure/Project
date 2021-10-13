@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url("images/abhay.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+        }
+
+
+    .center{
+        width: 860px;
+        margin: 0 auto ;
+    }
+    .center ul{
+        list-style: none;
+        margin-top:2%;
+    }
+    .center ul li{
+        background: #262626;
+        width: 170px;
+        border:1px solid #fff ;
+        height: 50px;
+       line-height: 50px;
+       text-align: center;
+       float: left;
+       color: #fff;
+       font-size: 15px;
+       position: relative;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .center ul li:hover{
+        background: cyan;
+    }
+    .center ul ul{
+        display: none;
+    }
+    .center ul li:hover > ul{
+        display: block;
+    }
+    .center ul ul ul{
+        margin-left: 170px;
+        top: 0;
+        position:absolute;
+    }
+
+     
+</style>
+<body>
+    <main class="center">
+       <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>services
+        <ul>
+            <li>abhay</li>
+            <li>design
+            <ul>
+                <li>web</li>
+                <li>css</li>
+            </ul>
+            </li>
+            
+        </ul>
+        </li>
+        <li>help</li>
+        <li>contact</li>
+        </ul>
+        
+        
+    
+    </main>
+    
+</body>
+</html>
